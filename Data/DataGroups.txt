@@ -1,0 +1,276 @@
+Stucture of .xls-files
+
+Scripts in use
+
+Abaza, Abenaki, Abkhaz Acehnese, Acheron, Acholi, Achuar-Shiwiar, Adamaua Fulfulde Adlam Adyghe Adzera, Afar, Afrikaans, Aghul, Aguaruna, Ahom, Ainu, Ajië Akan, Akhvakh, Akkadian, Aklan Akurio, Alabama, Albanian, Alsatian, Altay, Alur Amahuaca, Amarakaeri, Amharic, Andi, Andoa, Anglo-Saxon Runes (Futhorc), Anuki, Anutan, Apache, Arabela, Arabic (Algerian), Arabic (Cypriot), Arabic (Egyptian), Arabic (Lebanese), Arabic (Modern Standard), Arabic (Moroccan), Arabic (Syrian), Arabic (Tunisian), Aragonese, Arakanese, Araki, Aramaic (Early Aramaic, Imperial Aramaic, Aramaic Square script, Assyrian Neo-Aramaic, Chaldean Neo-Aramaic, Jewish Neo-Aramaic, Neo-Mandaic, Turoyo, Western Neo-Aramaic), Aranese Arapaho, Archi, Arvanitic, Are, Arikara Ariyaka, Armenian, Aromanian, Arwi, Asháninka, Ashéninka, Assamese, Asturian, Atlantean, ’Auhelawa Avar, Avestan, Avokaya Awing Aymara, Äynu, Azerbaijani, Babine-Witsuwit'en Badaga, Bagvalal, Balti, Bambara, Bandial Bashkir, Basque, Bedik, Beja, Beli Bench Bengali, Berber (Tifinagh), Bhojpuri, Bislama Bisu, Bora, Borgu Fulfulde, Bosnian, Bouyei Brahmi, Brahui, Balinese, Burmese, Burushaski, Busa Bushi, Caddo Cape Verdean Creole, Caquinte, Carian, Catalan, Cayuga, Chakma, Cha'palaa(chi), Chavacano, Chechen, Cherokee, Chickasaw, Chilcotin, Chinook, Chinese (Cantonese), Chinese (Mandarin), Chipewyan, Chuukese, Cofán, Comorian, Comox, Coptic, Dagaare, Dane-zaa (Beaver), Danish, Deg Xinag, Delaware, Dutch, Dzongkha, Egytian Hieroglyphs, English, Estonian, Ewondo, Eyak, Fiji Hindi, Frisian (West) Fula(ni), Ga, Georgian, Gitxsan, Glagolitic, Gothic, Grantha, Greek, Griko, Guinea-Bissau Creole, Gujarati, Hajong, hindi, Hittite, Hunsrik, Indonesian, Interlingua, Japanese, Javanese, Jeju, Jurchen, Kabyle, Kaithi, Kannada, Karachay-Balkar, Karen, Kashmiri, Kayah Li, Kharosthi, Khmer, Khojki, Khowar, Korean, Kove, Kpelle, Kumyk, Kurdish, Kulitan, Kuot, Kutchi, Ladakhi, Lao, Lepcha, Latgalian, Latvian Limbu, Lisu (Fraser, Pollard Miao), Lithuanian Loma, Lote, Lokoya, Lopit, Luwian, Lycian, Lydian, Magahi, Maithili, Makonde, Malay, Malayalam, Manchu, Mandaic, Mandekan, Manipuri, Maltese Marathi, Marwari, Maskelynes, Mato, Mende, Menominee, Modi, Mongolian, Mro, Mustun, Nabataean, Nepal Bhasa/Newari, Nepali Nheengatu, Ogham, Okinawan, Old Church Slavonic, Oriya (Afaan) Oromo, Pali, Pawnee, Phags-pa, Punjabi, Rajasthani, Rarotongan (Cook Islands Māori, Re(d)jang, Rohingya, Romani Rovas (Carpathian Basin Rovas, Khazarian Rovas, Hungarian Rovas), Russian, Sankethi, sanskrit, Savosavo, Shan, Sharda, Shina, Siar, Sikaiana Sikkimese, Sinhala, Sio, Siraiki, Somali (Osmanya), Sourashtra, Soyombo, Sundanese, Sunuwar (Jenticha, Tikamuli), Sylheti, Syriac, Tami, Tamil, Teiwa Telugu, Thai, Thaana, Tibetan, Toki Pona, Tolong Siki, Tongan, Tsakonian, Tshangla, Tulu, Tuvaluan, Ubykh, Wandamen, Western Rote, Wichita, Wolof, Xibe, Yabem, Yi (Nuoso/Lolo), Zigula
+
+Ancient scripts
+Cuneiform scripts
+Includes: Sumerian, Ugaritic
+
+Old Italic
+Includes: Etruscan, Faliscan, Leptonic, Messapic, Oscan, South Picene, Umbrian
+
+Ancient Mediterranean writing systems
+Includes: Cypriot, Linear B
+
+Runic scripts
+Includes: Elder Futhark, Danish Futhark, Medieval (Latinised) Futhark, Norwegian Futhark and Short-Twig/Rök Runes
+
+Arabic script - Turkic languages
+Includes: Chagatai, Crimean Tatar, Karakalpak, Kazakh, Khorasani Turkic, Kyrgyz, Qashqai, Tatar, Turkish, Uyghur, Uzbek
+
+Arabic script - other languages
+Includes: Ganda, Palula, Mandinka, Mozarabic, Sindhi, Urdu
+
+Various alphabets
+Iranian languages
+Includes: Baluchi, Bartangi, Dari, Galaki, Khufi, Luri, Mazandarani, Oroshor, Ossetian, Pahlavi, Pastho, Persian, Rushani, Sanglechi, Sarikoli, Shabaki, Shughni, Tajik, Talysh, Tat, Wakhi, Yoghnobi, Zazaki
+
+Hebrew
+Includes: Hebrew, Bukhori, Judeo-Arabic, Juhuri/Judeo-Tat, Ladino, Yiddish, Samaritan, Karmeli
+
+Cyrillic
+Cyrillic script
+- includes Early Cyrillic, Cyrillic numerals
+
+Cyrillic - Slavic languages
+Includes: Belarusian, Bulgarian, Macedonian, Russian, Serbian, Rusyn, Ukrainian, West Polesian
+
+Cyrillic - Romance languages
+Includes: Moldovan, Romanian
+
+Cyrillic - Turkic languages
+Includes: Chuvash, Crimean Tatar, Dolgan, Gagauz, Karaim, Karakalpak, Kazak, Khakas, Krymchak, Kyrgyz, Nogai, Shor, Tatar, Teleut, Tofa, Turkmen, Tuvan, Urum, Uyghur, Uzbek, Yakut
+
+Cyrillic - Tungusic languages
+Includes: Even, Evenki, Nanai, Oroch, Orok, Ulch
+
+Cyrillic - Finno-Ugric languages
+Includes: Erzya, Khanty, Mansi, Mari, Moksha, Nenets, Selkup, Udmurt and Votic
+
+Cyrillic - other languages
+Includes: Chukchi, Dungan, Enets, Itelmen, Ket, Komi, Koryak, Nivkh, Tajik, Yukaghir
+
+Sámi
+Inari Saami, Kildin Sámi, Lule Sámi, North Sámi, Pite Sámi, Skolt Sámi, South Sámi, Ter Sámi
+
+Mongolic languages
+Includes: Buryat, Evenki, Kalmyk, Santa (Dongxiang)
+
+Caucasian languages (mainly Cyrillic)
+Includes: Bats, Botlikh, Budukh, Chamalal, Dargwa, Godoberi, Hinukh, Hunzib, Ingush, Kabardian, Karata, Khinalug, Khwarshi, Kryts, Kubachi, Lak, Laz, Lezgian, Mingrelian, Rutul, Svan, Tabassaran, Tindi, Tsakhur, Tsez, Udi
+
+Latin alphabet
+Latin - Celtic languages
+Includes: Breton, Cornish, Gaulish, Irish, Manx, Scottish Gaelic and Welsh
+
+Latin - Germanic languages
+Includes: Bavarian, Cimbrian, Elfdalian, English, Faroese, Flemish, German, Icelandic, Limburgish, Low Saxon, Mòcheno, Norn, Norwegian, Old Norse, Pennsylvania German, Ripuarian, Scots, Shetlandic, Swedish, Swiss German
+
+Latin - Italic/Romance languages
+Includes: Dalmatian, Emilian-Romagnol, Extremaduran, Fala, Franco-Provençal, French, Galician, Gallo, Genoese, Istriot, Italian, Jèrrais, Ladin, Latin, Ligurian, Lombard, Megleno-Romanian, Mirandese, Moldovan, Monégasque, Napolitan, Occitan, Picard, Piedmontese, Portuguese, Romanian, Romansh, Sardinian, Sicilian, Spanish and Walloon
+
+Latin - Slavic languages
+Includes: Croatian, Czech, Kashubian, Polish, Serbian, Silesian, Slovak, Slovenian, Upper and Lower Sorbian
+
+Latin - Finno-Ugaric languages
+Includes: Finnish, Hungarian, Ingrian, Karelian, Livonian, Nenets, Nganasan, Veps, Võro and Votic
+
+Latin - Turkic
+Includes: Chuvash, Crimean Tatar, Evenki, Gagauz, Karaim, Karakalpak, Kazakh, Khakas, Qashqai, Salar, Tatar, Turkish, Turkmen, Tuvan, Uyghur, Uzbek
+
+Latin - Afro-Asiatic
+Includes: Hausa, Marba
+
+Latin - Niger-Congo languages
+Includes: Chichewa, Dagbani, Dengebu, Duala, Edo, Efik, Ewe, Fon, Gbe, Harari, Herero, Ibibio, Igbo, Ikizu, Jita, Kambari, Kikuyu, Kinyarwanda, Kirundi, Kongo, Koti, Laalaa, Lingala, Lozi, Luganda, Lumun, Makhuwa, Mandinka, Mankanya, Maore, Mbum, Mossi, Nkore, Northern Ndebele, Noon, Northern Sotho, OshiWambo, Pinyin, Ronga, Sena, Shona, Soga, Somali, Southern Ndebele, Southern Sotho, Supyire, Susu, Swahili, Swati, Tocho, Tsonga, Tshiluba, Tswa, Tswana, Tumbuka, Twi, Umbundu, Venda, Xhosa, Yao, Yemba, Yoruba, Zarma, Zinza, Zulu
+
+Kuda languages
+Includes: Kadugli, Kamda, Kanga, Katcha, Keiga, Krongo, Kuga, Miri
+
+Latin - Nilo-Saharan languages
+Includes: Baka, Bari, Bongo, Dholuo, Dinka, Dongotono, Fur, Jur Modo, Kanuri, Keliko, Lotuko, Lugbara, Maasai, Ma'di, Moru, Morokodo, Narim, Nuer, Olu'bo, Shilluk, Toposa, Wa'di
+
+Latin - Khoisan languages
+Includes: Juǀʼhoan, Khoekhoe (Nama), Nǁng
+
+Eskimo-Aleut languages
+Includes: Aleut, Greenlandic, Inuktitut, Yupik
+
+Indigenous languages of North America
+Includes: Algonquin, Assiniboine, Atikamekw, Biloxi, Cheyenne, Chippewa, Chiwere, Choctaw, Cocopah, Creek, Crow, Dakota, Fox, Haida, Karuk, Kickapoo, Klamath, Koasati, Kwakiutl, Lakota, Mikasuki, Mikmaq, Mohegan, Montagnais, Munsee, Naskapi, Northern Paiute, Nuu-Chah-Nulth, Omaha, Ottawa, Pawnee, Potawatomi, Salish, Shawnee, Stoney, Yuchi/Euchee, Yurok
+
+Iroquoian languages
+Includes: Mohawk, Oneida, Onondaga, Seneca, Tuscarora, Wyandot (Huron)
+
+Na-Dené languages
+Includes: Gwich’in, Hän, Hupa, Jicarilla, Koyukon, Mescalero-Chiricahua, Navajo, Sarcee, Sekani, Tlingit, Tłı̨chǫ (Dogrib), Tuscarora, Tutchone
+
+Pomoan languages
+Includes: Eastern Pomo, Kashaya, Northern Pomo, Southern Pomo
+
+Salishan languages
+Includes: Coeur d'Alene, Halkomelem, Klallam, Lushootseed, Nuxalk, Saanich
+
+Uto-Aztecan languages
+Includes: Comanche, Hopi, Luseño, Nahuatl, O'odham, Pipil (Nawat), Shoshone, Tarahumara, Tepehuán, Timbisha, Yaqui
+
+Indigenous languages of Central America
+Includes: Chinanteco, Guaymí, Mazahua, Mazatec, Miskito, Mixtec, Purepecha, Otomi, Seri, Zapotec
+
+Indigenous languages of South America
+Includes: Chayahuita, Cubeo, Guambiano, Guanano/Wanano, Guaraní, Hixkaryána, Kaingang, Kashinawa, Kuna, Mapuche, Murui Huitoto, Pirahã, Shavante, Tiriyó, Toba Qom, Tucano, Urarina, Yagua, Záparo
+
+Mayan languages
+Includes: Aguacateco, Huasteco, Ixil, Kaqchikel, K'iche', Mam, Q'anjob'al, Q'eqchi', Tsotsil, Tzeltal, Yucatec
+
+Arawakan languages
+Includes: Arawak, Baniwa, Garifuna, Machiguenga, Nanti, Tariana, Wayuu, Yucuna
+
+Quechuan languages
+Includes: Quechua, Ayacucho Quechua
+
+Latin - Malayo-Polynesian languages
+Includes: Bima, Bugis, Buhutu, Central Sinama, Chamorro, Cia-Cia, Dhao, Drehu, Fijian, Futunan, Hawaiian, Jaminjung, Jarai, Kakabai, Kaninuwa, Kapingamarangi, Ket, Kiribati, Kurti, Lampung, Ledo Kaili, Madurese, Makassarese, Malagasy, Mandar, Maori, Marshallese, Mbula, Minangkabau, Moriori, Muna, Nauruan, Ndrumbea, Nias, Niuean, Paama, Paicî, Palauan, Pohnpeian, Rade, Raga, Rapa Nui, Rennellese, Rotokas, Rotuman, Roviana, Sakao, Samoan, Sasak, Satawalese, Sumbawa, Tahitian, Tetum, Tii, Tikopia, Tokelauan, Tolaki, Toraja-Sa'dan, Xârâcùù, Yapese
+
+Latin - Formosan languages
+Includes: Amis, Atayal
+
+Philippine languages and scripts
+Includes: Baybayin (Tagalog/Ilocano), Bikol, Bolinao, Buhid, Cebuano, Cuyunon, Filipino, Hanuno'o, Hiligaynon, Ifugao, Ilocano, Kagayanen, Kankanaey, Kapampangan, Maranao, Masbateño, Matigsalug, Pangasinian, Tagabawa, Tagalog, Tausūg, Waray-Waray, Yami/Tao
+
+Latin - Austroasiatic languages
+Includes: Chrau, Khasi, Wa, Vietnamese
+
+Latin - Hmong-Mien languages
+Includes: Iu Mien, Romanized Popular Alphabet (RPA)
+
+Latin - Tai-Kaidai and Sino-Tibetan languages
+Includes: Angami, Bouyei, Dong, Karbi, Lahu, Mizo, Naxi, Tujia, Zhuang
+
+Latin - Languages of New Guinea
+Includes: Amele, Awara, Barai, Blagar, Kanasi, Meriam Mir
+
+Latin - Aboriginal languages of Australia
+Includes: Arrernte, Bundjalung, Gamilaraay, Gooniyandi, Gugadja/Kukatja, Kala Lagaw Ya, Kaurna, Jaminjung, Jingulu, Murrinh-Patha, Ngiyambaa, Noongar, Paakantyi, Pitjantjatjara, Wardaman, Warlpiri, Wemba Wemba, Wik-Mungkan, Wiradjuri, Yindjibarndi and Yolngu
+
+Latin - Creoles and Pidgins
+Includes: Fanagalo, French Guianese Creole, Guadeloupean Creole, Haitian Creole, Jamaican Creole, Kituba, Manado Malay, Mauritian Creole, Papiamento, Pijin, Réunion Creole, Saramaccan, Seychelles Creole, Sierra Leonean Creole, Sango, Sranan, Tok Pisin, Torres-Strait Creole
+
+Latin - Isolates
+Includes: Burushaski, Ket, Ticuna
+
+Latin - International Auxiliary languages and constructed languages
+Includes: Esperanto, Folkspraak, Ido, Interglossa, Interlingue/Occidental, Latino sine Flexione, Lingua Franca Nova, Lojban, Novial, Slovio, Volapük
+
+Alternative versions of the Latin alphabet
+Includes: Anglo-Saxon, Fraktur, Irish Uncial and Sütterlin
+
+Varieties of Chinese
+Includes: Gan, Fuzhonnese, Hakka, Puxian, Shanghainese, Taiwanese, Teochew, Wenzhounese, Xiang
+
+Other scripts/languages of Asia
+Devanagari (Awadhi, Bodo, Konkani, Magadhi, Sindhi)
+
+Lontara (Bugisnese, Makassarese, Mandar)
+
+Mon-Khmer languages
+Includes: Tampuan
+
+Other South East Asian scripts
+Includes: Buhid, Cham, Fraser, Hmong, Pollard Miao, Rejang, Siamese, Tai Dam
+
+Syllabaries of North America
+Includes: Blackfoot, Carrier, Cree, Cypriot, Objibwe, Oji-Cree
+
+Ethiopic - languages written with the Ethiopic script and languages of Ethiopia (Argobba, Awngi, Blin, Chaha, Dizin, Ge'ez, Harari, Inor, Silt'e, Tigre, Tigrinya, Xamtanga, Wolaytta)
+
+Other scripts
+Includes: Etruscan, Orkhon/Old Turkic, Phoenician, Proto-Sinaitic/Canaanite, Sabaean
+
+Phonetic transcription systems
+Includes: Dialectal Paleotype, Visible Speech
+
+International Phonetic Alphabet (IPA)
+
+Tactile writing systems
+Includes: Braille, Braille for Chinese, Moon
+
+Constructed scripts
+Alternative writing systems
+Includes: Blissymbolics, Deseret, Graffiti, Quikscript, Shavian, Unifon
+
+Fictional writing systems
+Includes: Ancients Alphabet, Aurek-Besh, Daedric, Delason, D'Ni, Futurama, Gnommish, Klingon, Kryptonian, Matoran, Tenctonese, Utopian, Visitor
+
+Magical alphabets
+Includes: Alphabet of the Magi, Angelic, Daggers, Enochian, Malachim, Passing the River and Theban
+
+Tolkien's scripts
+Cirth
+Sarati
+Tengwar for Quenya
+Tengwar for Sindarin
+Tengwar for Arabic
+Tengwar for English
+Tengwar for Icelandic
+Tengwar for Irish
+Tengwar for Scottish Gaelic
+Tengwar for Welsh
+Scripts of Tékumel: Empire of the Petal Throne
+Includes: Sunúz, Tsolyáni, Yán Koryáni
+
+Your con-scripts
+Includes: Aliaric, Ancients, Betamaze, Daikan, Delason, Deini, Dingwiri, Efkolia, Ewellic, Falandril, Flos, Halo, High Ƕarian, Hopyratian, Irxti, Kanadana, Liron, Lovecraftian, Morda, Nari, Oxidilogi, Peperklips, Phonogic, Riasu, Shandanese, Sobatha, SpaceKees, Surat Bisaya, Suritanyo, Tciaar, Wedges, Ygyde, 21e
+
+Adaptations of existing alphabets Arabish, Coptic Arabic, Englabjia, EurAlfabet™, Old Norse Cyrillic, Nihon no Hangul, Persian Avestan, Polish Cyrillic, Portugárabe, Porturillic, Renglish (Latin), Renglish (Cyrillic), Romanabic, Urdu Latin
+
+Simon Ager's constructed and adapted scripts
+Includes: Crymeddau, Fingers, Geyinzi, Kanadana and Tengwar for Welsh
+
+Tower of Babel texts
+Includes: Kannada, Malayalam, Persian/Farsi
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%% SCRIPT CLASSES %%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%% ABJADS %%% (consonant alphabets)
+
+Abjads currently in use
+
+Syriac, Hebrew, Arabic, Samaritan
+
+Abjads that are no longer used
+
+Aramaic, Ancient Berber, Nabataean, Middle Persian, Mandaic, Psalter, Phoenician, Parthian, Sabaean, Punic, Proto-Sinaitic/Proto-Canaanite, Ugaritic, South Arabian, Sogdian
+
+%%% ABUGIDAS %%% (consonants with inherent vowel)
+
+Syllabic alphabets currently in use
+
+Bengali, Buhid, Burmese/Myanmar, Chakma, Cham, Cree (Nêhiyaw), Dehong Dai, Devanāgarī, Fraser, Ge'ez (Ethiopic), Gondi, Gujarāti, Gurmukhi (Punjabi), Hanuno'o, Hmong, Inuktitut, Jenticha, Kannada, Kerinci, Khmer, Kirat Rai, Lanna, Lao, Lepcha (Róng-Ríng), Limbu / Kirati, Malayalam, Manipuri (Meetei Mayek), Mro, Mwangwego, Naskapi (Innu Aimun), New Tai Lue, Ojibwe (Anishinaabe), Odia, Shan, Sinhala, Sorang Sompeng, Tamil, Telugu, Thai, Tibetan, Tikamuli, Tolong Siki, Varang Kshiti	 
+
+Syllabic alphabets used to a limited extent
+
+Balinese, Batak, Bilang-bilang, Blackfoot (Siksika), Carrier (Dulkw'ahke), Grantha, Hanifi, Javanese, Kaithi, Khojki, Kulitan, Lampung, Lontara, Lota Ende, Ranjana, Rejang, Sasak, Satera Jontal, Sharda, Siddham, Sourashtra, Soyombo, Sundanese, Syloti Nagri, Tagalog, Tagbanwa, Tigalari
+
+Syllabic alphabets that are no longer used
+
+Ahom, Bima, Brāhmī, Dives Akuru, Evēla Akuru, Kawi, Kharosthi, Modi, Mongolian Horizontal Square Script, Old Persian Cuneiform, Phags-pa, Pallava, Sindhi, Takri, Tocharian
+
+%%% ALPHABETS %%%
+
+Alphabets currently in use
+
+Adlam, Armenian, Cyrillic, Georgian (Mkhedruli), Greek, Kayah Li, Korean (hangŭl), Latin/Roman, Mongolian, N'Ko, Ol Cemet'/Ol Chiki (Santali), Oirat Clear Script, Pollard script, Tai Dam	Thaana, Thaana, Tifinagh, Xibe	
+
+Alphabets used to a limited extent
+
+Chinuk Pipa, Coorgi-Cox, Coptic, Deseret, Fraktur, Galik, Irish Uncial, Manchu, Old Church Slavonic, Runic (Futhark)	 
+
+Alphabets that are no longer used
+
+Anglo-Saxon Runes (Futhorc/Fuþorc), Avestan, Bassa (Vah), Beitha Kukju, Borama (Somali), Carian, Carpathian Basin Rovas, Caucasian Albanian, Dalecarlian runes, Elbasan, Etruscan, Faliscan, Georgian (Asomtavruli), Georgian (Nuskhuri), Glagolitic, Gothic, Gothic Runes, Hungarian Runes Székely-Hungarian Rovás, Khazarian Rovas, Lepontic, Lycian, Lydian, Meroïtic, Messapic, Ogham, Old Italic, Old Permic (Abur), Old Uyghur, Orkhon / Old Turkic, Oscan, Osmanya (Somali), Phrygian, Todhri, Umbrian	 	 
+
