@@ -1,6 +1,0 @@
-STEPS
-
--collect languagewise grapheme-phoneme pairs from .xls
--store as unicode expressions
--get corresponding font type (noto fonts)
--convert to image
