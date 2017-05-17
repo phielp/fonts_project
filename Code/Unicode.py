@@ -26,7 +26,7 @@ uniCode = table[0][1].text_content()
 font_size = 60
 back_ground_color = (255, 255, 255, 255)
 font_color = (0, 0, 0, 255)
-unicode_text = u'\u1000\u1001\u1002\u1003'
+unicode_text = u'\u0414'
 # unicode_text = u'[ k\u02b0\xe1 ]'
 
 # NotoSansMyanmar-Regular.ttf
