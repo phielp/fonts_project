@@ -47,7 +47,7 @@ for filename in glob.glob(os.path.join(path, '*.xls')):
 				new_file.write(value.encode('utf8') + ',')
 
 				# store as Unicode encoding
-				new_file.write(repr(value) + ',')
+				# new_file.write(repr(value) + ',')
 			if '[' in value:
 				new_file.write('\n')
 
