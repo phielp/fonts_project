@@ -5,15 +5,21 @@ import glob
 import os
 import csv
 
-new_file = open('combined.csv', 'w')
 path = '../Data/'
 
 for filename in glob.glob(os.path.join(path, '*.xls')):
 	print filename
 
+	new_path = filename[:-4] + '.csv'
+
+	new_file = open(new_path, 'w')
+
 	# open .xls as workbook
 	book = open_workbook(path + filename)
 	# get first page
+	print book.nsheets
+	print book.sheet_names()
+	
 	s = book.sheet_by_index(0)
 
 	table = np.zeros((s.nrows,s.ncols), dtype=np.object)
@@ -30,18 +36,22 @@ for filename in glob.glob(os.path.join(path, '*.xls')):
 	    		table[row][col] = '_'
 
 	# filter common words
-	words = ['consonants', 'vowels', 'vowels & diphthongs', 'other letters']
+	words = ['consonants', 'vowels', 'vowels', 'diphthongs', 'other', 'letter', 
+		'combination', 'diacritic', 'numeral', 'indication', 'devanagari', 'digraphs',
+		'tone', 'text', 'only', 'foreign', 'kriol', 'pronunciation', 'series', 'alphabet',
+		'yale', 'romanization', 'initials', 'rimes', 'mutations']
 
 	# format and store in .csv
-	new_file.write(filename + '\n')
+	# new_file.write(filename + '\n')
 
-	for j in range(table.shape[1]):
+	for j in range(table.shape[1]-1):
 		for i in range(table.shape[0]):
 			value = table[i][j]
 			# replace filter words with _
-			for word in words:
-				if value.strip().lower() == word:
-					value = '_'
+			# for word in words:
+			# 	if value.strip().lower() == word:
+			if any(word in value.strip().lower() for word in words):
+				value = '_'
 			if '_' not in value:
 				# store as readable
 				new_file.write(value.encode('utf8') + ',')
@@ -51,16 +61,14 @@ for filename in glob.glob(os.path.join(path, '*.xls')):
 			if '[' in value:
 				new_file.write('\n')
 
-	new_file.write('\n')
+	new_file.close()
 
 
-new_file.close()
+# # reverse order
+# new_file_rev = open('combinedRev.csv', 'w')
 
-# reverse order
-new_file_rev = open('combinedRev.csv', 'w')
-
-with open('combined.csv', 'r') as textfile:
-    for row in reversed(list(csv.reader(textfile))):
-        new_file_rev.write(', '.join(row) + '\n')
+# with open('combined.csv', 'r') as textfile:
+#     for row in reversed(list(csv.reader(textfile))):
+#         new_file_rev.write(', '.join(row) + '\n')
 
 
