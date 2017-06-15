@@ -112,9 +112,9 @@ def sequential_model():
 def CNN_model():
 
 	train_x, train_y = create_dataset_alt(test_dir)
+        print "shape trainX:", train_x.shape
+        print "shape trainY:", train_y.shape
 	# test_x, test_y = create_dataset(test_dir)
-
-	print train_x.shape
 
 	n_target_features = 10
 
@@ -130,26 +130,29 @@ def CNN_model():
 	# model.add(Conv1D(n_target_features, 3, input_shape=(64, 32)))
 
 	# conv layer 2D
-	model.add(Reshape((1, img_rows, img_cols), input_shape=(2048,)))
-	model.add(Conv2D(n_target_features, (3, 3), data_format='channels_last'))
-	model.add(Activation('relu'))
+	model.add(Reshape((1, img_rows, img_cols), input_shape=(32,64)))
+
+	model.add(Conv2D(n_target_features, kernel_size=(3, 3), activation='relu', data_format='channels_first'))
+	# model.add(Activation('relu'))
 	model.add(MaxPooling2D(pool_size=(2, 2)))
 
 	# conv layer 2
-	# model.add(Conv2D(n_target_features, (3, 3), padding='same'))
+	model.add(Conv2D(n_target_features, kernel_size=(3, 3), activation='relu', padding='same'))
 	# model.add(Activation('relu'))
-	# model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
+	model.add(MaxPooling2D(pool_size=(2, 2), padding='same'))
 
-	# model.add(Flatten())
-	# model.add(Dense(64))
+	model.add(Flatten())
+	model.add(Dense(64, activation='relu'))
 	# model.add(Activation('relu'))
-	# model.add(Dropout(0.5))
-	# model.add(Dense(1))
+	model.add(Dropout(0.5))
+	model.add(Dense(10, activation='sigmoid'))
 	# model.add(Activation('sigmoid'))
 
 	model.compile(optimizer='rmsprop',
 	              loss='binary_crossentropy',
 	              metrics=['accuracy'])
+
+        # print model.predict(train_x)
 
 	model.fit(train_x, train_y, batch_size=16, epochs=10)
 
