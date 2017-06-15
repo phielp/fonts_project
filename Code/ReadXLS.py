@@ -5,7 +5,7 @@ import glob
 import os
 import csv
 
-path = '../Data/'
+path = '../Data/Test'
 
 for filename in glob.glob(os.path.join(path, '*.xls')):
 	print filename
@@ -15,11 +15,11 @@ for filename in glob.glob(os.path.join(path, '*.xls')):
 	new_file = open(new_path, 'w')
 
 	# open .xls as workbook
-	book = open_workbook(path + filename)
+	book = open_workbook(filename)
 	# get first page
 	print book.nsheets
 	print book.sheet_names()
-	
+
 	s = book.sheet_by_index(0)
 
 	table = np.zeros((s.nrows,s.ncols), dtype=np.object)

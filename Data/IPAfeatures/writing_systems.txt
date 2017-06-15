@@ -1,0 +1,366 @@
+Alphabets
+
+        abaza               (is this maybe just cyrillic?)
+        armenian            wiki
+        albanian            language, uses beitha kukju of elbasan?
+        avestan             wiki
+        bambara             language, nko
+        carian              wiki
+        caucasian           wiki
+        coptic              wiki
+        cyrillic_finnougaric        (should check to what extend they are the same)
+        cyrillic_other
+        cyrillic_romance
+        cyrillic_russian
+        cyrillic_slavic
+        cyrillic_tungusic
+        cyrillic_turkic
+        fula                language, uses Adlam
+        glagolitic          wiki
+        gothic              wiki
+        kayahli
+        korean              language, uses hangul (or is this syllable based logography?)
+        latin_aboriginal            (should check if they are all the same)
+        latin_africa
+        latin_afroasiatic
+        latin_austroasiatic
+        latin_austronesian
+        latin_camerica
+        latin_celtic
+        latin_creoles
+        latin_english
+        latin_finnougaric
+        latin_formosan
+        latin_germanic
+        latin_hmongmien
+        latin_ial
+        latin_italic        (old italic?)
+        latin_khoisan
+        latin_namerica
+        latin_nilosaharan
+        latin_samerica
+        latin_slavonic      (old church slavonic?)
+        latin_taikaidai
+        latin_tng
+        latin_turkic        (old Turkic, Orkhon?)
+        lisu                alphabet language, fraser
+        lycian
+        manchu              wiki
+        ogham               wiki
+        somali              language, uses borama or osmanya?
+
+
+    Fictional
+        tengwar             (Tolkien)
+        tengwar_arabic      (Tolkien)
+        tengwar_icelandic       (Tolkien)
+        tengwar_welsh       (Tolkien)
+        atlantean.xls
+        
+
+Abjads
+
+        azeri               abjad language, arabic
+		arabic_cypriot      look in source, how do these differ? (syllabary?)
+        arabic_msa          
+        arabic_tunisian
+        arabic_turkic
+		hebrew              wiki
+        kashmiri            abjad language, arabic
+        mandaic             wiki says this is an abjad
+        nabataean           wiki
+        malay               abjad language, jawi
+        punjabi             abjad
+        syriac              wiki
+	
+
+Abugidas
+
+        assamese    language
+        balinese    wiki
+        bengali     wiki
+        brahmi      wiki
+        burmese     wiki
+        grantha     wiki
+        gujarati    wiki
+        hindi       language, devenagari
+        javanese    wiki
+        kannada     wiki
+        kharosthi   wiki
+        khmer       wiki
+        khojki      wiki
+        kulitan
+        lontara     wiki
+        lao         wiki
+        maithili    language, Tirhuta
+        malayalam   wiki
+        manipuri    language, bengali alphabet?
+        marathi     language, devenagari (or modi?)
+        mro
+        nepali      language, devenagari
+        phagspa
+        rejang      wiki
+        shan
+        sinhala     wiki
+        sundanese   wiki
+        sylheti     language, syloti Nagri
+        tamil       wiki
+        telugu      wiki
+        thai        wiki
+        tibetan     wiki
+        tulu        language, uses Kannada
+
+
+Alternative scripts
+        phonetic (Benjamin Franklin's phonetic alphabet?)
+        ipa         wiki
+
+
+
+This is the list of fonts included in the dataset of which I did not figure out what they are yet..
+../Data/abenaki.xls
+../Data/abkhaz.xls
+../Data/acehnese.xls
+../Data/acheron.xls
+../Data/acholi.xls
+../Data/achuar-shiwiar.xls
+../Data/adamaua.xls
+../Data/adzera.xls
+../Data/afar.xls
+../Data/afrikaans.xls
+../Data/aghul.xls
+../Data/aguaruna.xls
+../Data/akan.xls
+../Data/akhvakh.xls
+../Data/aklan.xls
+../Data/akurio.xls
+../Data/alabama.xls
+../Data/alsatian.xls
+../Data/altay.xls
+../Data/alur.xls
+../Data/amahuaca.xls
+../Data/amarakaeri.xls
+../Data/andi.xls
+../Data/andoa.xls
+../Data/anuki.xls
+../Data/anutan.xls
+../Data/apache.xls
+../Data/arabela.xls
+../Data/arakanese.xls
+../Data/araki.xls
+../Data/aranese.xls
+../Data/arapaho.xls
+../Data/arawakan.xls
+../Data/archi.xls
+../Data/are.xls
+../Data/arikara.xls
+../Data/aromanian.xls
+../Data/arvanitic.xls
+../Data/arwi.xls
+../Data/ashaninka.xls
+../Data/asheninka.xls
+../Data/asturian.xls
+../Data/avar.xls
+../Data/avokaya.xls
+../Data/awing.xls
+../Data/aymara.xls
+../Data/aynu.xls
+../Data/babine.xls
+../Data/badaga.xls
+../Data/bagvalal.xls
+../Data/balti.xls
+../Data/bandial.xls
+../Data/basque.xls
+../Data/beaver.xls
+../Data/bedik.xls
+../Data/beja.xls
+../Data/bench.xls
+../Data/bhojpuri.xls
+../Data/bislama.xls
+../Data/bisu.xls
+../Data/bora.xls
+../Data/borgu.xls
+../Data/bosnian.xls
+../Data/bouyei.xls
+../Data/brahui.xls
+../Data/burushaski.xls
+../Data/busa.xls
+../Data/bushi.xls
+../Data/caddo.xls
+../Data/capeverdeancreole.xls
+../Data/caquinte.xls
+../Data/catalan.xls
+../Data/cayuga.xls
+../Data/chapalaa.xls
+../Data/chavacano.xls
+../Data/chechen.xls
+../Data/chickasaw.xls
+../Data/chilcotin.xls
+../Data/chipewyan.xls
+../Data/chuukese.xls
+../Data/cofan.xls
+../Data/comorian.xls
+../Data/comox.xls
+        cuneiform       semi-syllabary/logography
+../Data/dagaare.xls
+../Data/danish.xls
+../Data/degxinag.xls
+../Data/delaware.xls
+../Data/dutch.xls
+../Data/dzongkha.xls
+../Data/eskimo-aleut.xls
+../Data/estonian.xls
+../Data/ewondo.xls
+../Data/eyak.xls
+../Data/fijihindi.xls
+../Data/futhorc.xls
+../Data/gitxsan.xls
+../Data/griko.xls
+../Data/guineabissaucreole.xls
+../Data/hajong.xls
+        hieroglyphs         logography
+../Data/indonesian.xls
+../Data/interlingua.xls
+../Data/iranian.xls
+../Data/iroquoian.xls
+../Data/jeju.xls
+../Data/kabyle.xls
+../Data/karachay-balkar.xls
+        karen       abiguda language, burmese
+../Data/khowar.xls
+../Data/kove.xls
+../Data/kumyk.xls
+        kutchi      abiguda language, gujarati
+../Data/ladakhi.xls
+../Data/latgalian.xls
+../Data/latvian.xls
+../Data/lithuanian.xls
+../Data/lokoya.xls
+../Data/loma.xls
+../Data/lopit.xls
+../Data/lote.xls
+../Data/lydian.xls
+../Data/magahi.xls
+../Data/makonde.xls
+../Data/maltese.xls
+../Data/mandarin.xls
+../Data/marwari.xls
+../Data/maskelynes.xls
+../Data/mato.xls
+        mayan           logography
+        mende           syllabary language, Kikakui
+../Data/mendekan.xls
+../Data/menominee.xls
+../Data/mongolic.xls
+../Data/monkhmer.xls
+../Data/mutsun.xls
+../Data/nadene.xls
+../Data/marwari.xls
+../Data/nheengatu.xls
+../Data/ocs.xls
+../Data/okinawan.xls
+../Data/oriya.xls
+../Data/oromo.xls
+../Data/pali.xls
+../Data/pawnee.xls
+../Data/philippine.xls
+../Data/pomoan.xls
+../Data/quechuan.xls
+../Data/rarotongan.xls
+../Data/rohingya.xls
+../Data/romani.xls
+../Data/rovas.xls
+../Data/salishan.xls
+../Data/sankethi.xls
+        sanskrit     abugida language, many scripts?
+../Data/shina.xls
+../Data/siar.xls
+../Data/sikaiana.xls
+../Data/sikkimese.xls
+../Data/sinitic.xls
+../Data/sio.xls
+../Data/sunuwar.xls
+../Data/tami.xls
+../Data/teiwa.xls
+../Data/tokipona.xls
+../Data/tongan.xls
+../Data/tsakonian.xls
+../Data/tshangla.xls
+../Data/tuvaluan.xls
+../Data/ubykh.xls
+../Data/uto-aztecan.xls
+../Data/wandamen.xls
+../Data/westernrote.xls
+../Data/wichita.xls
+../Data/wolof.xls
+../Data/yabem.xls
+../Data/zigula.xls
+
+List of fonts of which we have xls that are not in dataset
+adaptations.xls
+        adlam       alphabet
+adyghe.xls
+        ahom        Abiguda
+ainu.xls
+ajie.xls
+        akkadian    Logography
+alternative.xls
+        amharic         abiguda language, ethiopic
+        arabic_egyptian abjad
+        arabic_lebanese abjad
+        arabic_syrian   abjad
+        arabic          abjad
+aragonese.xls
+        aramaic         adjad
+ariyaka.xls
+babel.xls
+cantonese.xls
+        chakma.xls      abiguda
+        cherokee        syllabary
+cirth.xls
+con-scripts.xls
+        cyrillic        alphabet
+devanagari.xls
+        ethiopic        abugida
+fictional.xls
+frisian-west.xls
+        georgian        alphabet
+        greek           alphabet
+        hittite         logography
+        japanese        syllabary
+        jurchen         logography
+        kaithi          abugida
+        kpelle          syllabary
+        kurdish         abjad language, arabic
+latin_alt.xls
+        lepcha          abugida (language?, rong)
+        limbu           abugida
+        loma            syllabary language
+        luwian          logography
+magical.xls
+mediterranean.xls
+        modi        abugida
+        mongolian   alphabet
+        old_italic  alphabet
+omniglot.xls
+ranjana.xls
+runes.xls
+sager.xls
+sarati.xls
+savosavo.xls
+        shan        abugida language, burmese
+sharda.xls
+        somali      alphabet language, kaddare
+        sourashtra  abugida
+southeast_asian.xls
+        soyombo     abugida
+syllabics.xls
+tactile.xls
+tekumel.xls
+tengwar_english.xls
+tengwar_sindarin.xls
+        tifinagh    alphabet (of adjad?)
+tolongsiki.xls
+various.xls
+xibe.xls
+        yi          syllabary
