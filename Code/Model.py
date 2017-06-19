@@ -116,7 +116,7 @@ def CNN_model():
         print "shape trainY:", train_y.shape
 	# test_x, test_y = create_dataset(test_dir)
 
-	n_target_features = 10
+	n_target_features = 14
 
 	img_cols, img_rows = 64, 32  # width, height
 
@@ -145,7 +145,7 @@ def CNN_model():
 	model.add(Dense(64, activation='relu'))
 	# model.add(Activation('relu'))
 	model.add(Dropout(0.5))
-	model.add(Dense(10, activation='sigmoid'))
+	model.add(Dense(14, activation='sigmoid'))
 	# model.add(Activation('sigmoid'))
 
 	model.compile(optimizer='rmsprop',
