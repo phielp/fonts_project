@@ -1,0 +1,19 @@
+I would advice you to read at least the introduction and conclusion of the Cuskley paper (phonological and orthographic influences in the bouba-kiki effect). You can use that as your main motivation.
+
+Some points here that I consider important, to help you get through the paper which is quite long.
+
+sound-symbolism = non-arbitrary relations between symbols and meanings.
+bouba-kiki effect = an experimentally found form of sound symbolism (Ramachandran & Hubbart, 2001), participants show agreements in the preferred labels for shapes in a forced naming task.
+Quite widely accepted as a robust shared bias to pair linguistic sounds and visible form.
+
+Underlying mechanisms or source of this bias is not exactly known, but is generally attributed to iconic cross-sensory associations between sound properties and shape.
+However: not easy to rule out (culturally acquired) orthographic influences.
+
+One way to gain a better understanding of the entanglement of orthography and phonology is to directly study the relation between them by looking at graphemes (and the sounds they are describing) from a wide range of different writing systems.
+
+So, our focus: sound-symbolism at the grapheme level.
+If phonological properties are predictable from letter shapes across writing systems this would strengthen the hypothesis that a cross-sensory bias in fact exist.
+Unique perspective: using machine learning (convolutional neural nets) to discover to what extent relations between graphemes and phonology exist, cross-culturally.
+Allows us not only to systematically search for regularities in a wide range of writing systems (which would not be possible to do manually), but also to gain insight in the specific properties of the letters that are predictive of phonological properties, by studying the learned representations.
+
+
