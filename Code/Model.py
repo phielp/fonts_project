@@ -80,13 +80,14 @@ def individual_feature(Y, n_features):
     for n in range(0, n_features):
         feature_vec = []
         for y in Y:
-            feature_vec.append(y[n])
-        final.append(np_utils.to_categorical(feature_vec, num_classes = 4))
+            feature_vec.append([y[n]])
+        final.append(np.array(feature_vec))
+        # final.append(np_utils.to_categorical(feature_vec, num_classes = 4))
     return final
 
 # paths to data
 train_dir = '../Data/Train/'
-test_dir= '../Data/Test/'
+test_dir = '../Data/Test/'
 
 # Sequential Model
 def sequential_model():
@@ -203,10 +204,10 @@ def CNN_model():
     model = Model(inputs=inputs, outputs=predictions)
 
     model.compile(optimizer='rmsprop',
-                  loss='categorical_crossentropy',
+                  loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
 
-    print model.summary()
+    predictions = model.predict(train_x)[0]
 
     model.fit(train_x, train_targets, batch_size=16, epochs=10)
     score = model.evaluate(test_x, test_targets, batch_size=16)
@@ -214,7 +215,8 @@ def CNN_model():
 
 # sequential_model()
 # CNN_sequential()
-CNN_model()
+if __name__ == '__main__':
+    CNN_model()
 
 
 
