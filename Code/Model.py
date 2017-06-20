@@ -163,46 +163,51 @@ def CNN_model():
 
     n_target_features = 4
 
-    img_cols, img_rows = 64, 32  # width, height
-
-    inputs = Input(shape=(32, 64,))
-
     train_targets = individual_feature(train_y, 14)
     test_targets = individual_feature(test_y, 14)
 
-    conv = Conv1D(n_target_features, kernel_size=(3,), activation='relu')
-    fully_connect = Dense(64, activation='relu')
+    img_cols, img_rows = 64, 32  # width, height
 
-    # x = conv(inputs)
+    # create model
+    inputs = Input(shape=(img_rows, img_cols,))
 
-    x = Dense(64, activation='relu')(inputs)
-    x = Dense(64, activation='relu')(x)
+    reshaped = Reshape((1, img_rows, img_cols), input_shape=(32,64))(inputs)
 
-    consonantal = Dense(n_target_features, activation='softmax', name='consonantal')(x)
-    sonorant = Dense(n_target_features, activation='softmax', name='sonorant')(x)
-    continuant = Dense(n_target_features, activation='softmax', name='continuant')(x)
-    delayedRelease = Dense(n_target_features, activation='softmax', name='delayedrelease')(x)
-    approximant = Dense(n_target_features, activation='softmax', name='approximant')(x)
-    nasal = Dense(n_target_features, activation='softmax', name='nasal')(x)
-    labial = Dense(n_target_features, activation='softmax', name='labial')(x)
-    rounded = Dense(n_target_features, activation='softmax', name='round')(x)
-    strident = Dense(n_target_features, activation='softmax', name='strident')(x)
-    height = Dense(n_target_features, activation='softmax', name='height')(x)
-    low = Dense(n_target_features, activation='softmax', name='low')(x)
-    front = Dense(n_target_features, activation='softmax', name='front')(x)
-    back = Dense(n_target_features, activation='softmax', name='back')(x)
-    tense = Dense(n_target_features, activation='softmax', name='tense')(x)
+    conv1 = Conv2D(n_target_features, kernel_size=(3, 3), activation='relu', data_format='channels_first')(reshaped)
+    # max_pool1 = MaxPooling2D(pool_size=(2, 2))(conv1)
+
+    # conv layer 2
+    conv2 = Conv2D(n_target_features, kernel_size=(3, 3), activation='relu', padding='same')(conv1)
+    max_pool2 = MaxPooling2D(pool_size=(2, 2), padding='same')(conv2)
+
+    flatten = Flatten()(max_pool2)
+
+    consonantal = Dense(n_target_features, activation='softmax', name='consonantal')(flatten)
+    sonorant = Dense(n_target_features, activation='softmax', name='sonorant')(flatten)
+    continuant = Dense(n_target_features, activation='softmax', name='continuant')(flatten)
+    delayedRelease = Dense(n_target_features, activation='softmax', name='delayedrelease')(flatten)
+    approximant = Dense(n_target_features, activation='softmax', name='approximant')(flatten)
+    nasal = Dense(n_target_features, activation='softmax', name='nasal')(flatten)
+    labial = Dense(n_target_features, activation='softmax', name='labial')(flatten)
+    rounded = Dense(n_target_features, activation='softmax', name='round')(flatten)
+    strident = Dense(n_target_features, activation='softmax', name='strident')(flatten)
+    height = Dense(n_target_features, activation='softmax', name='height')(flatten)
+    low = Dense(n_target_features, activation='softmax', name='low')(flatten)
+    front = Dense(n_target_features, activation='softmax', name='front')(flatten)
+    back = Dense(n_target_features, activation='softmax', name='back')(flatten)
+    tense = Dense(n_target_features, activation='softmax', name='tense')(flatten)
 
     predictions = [consonantal, sonorant, continuant, delayedRelease, approximant, 
-        nasal, labial, rounded, strident, height, low, front, back, tense]
+                   nasal, labial, rounded, strident, height, low, front, back, tense]
 
     model = Model(inputs=inputs, outputs=predictions)
-
-
 
     model.compile(optimizer='rmsprop',
                   loss='categorical_crossentropy',
                   metrics=['accuracy'])
+
+    print model.summary()
+
     model.fit(train_x, train_targets, batch_size=16, epochs=10)
     score = model.evaluate(test_x, test_targets, batch_size=16)
     print '\n', score
