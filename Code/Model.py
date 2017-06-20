@@ -154,10 +154,10 @@ def CNN_sequential():
 	print '\n', score
 
 def CNN_model():
-	train_x, train_y = create_dataset(train_dir)
+	train_x, train_y = create_dataset_alt(train_dir)
 	print "shape trainX:", train_x.shape
 	print "shape trainY:", train_y.shape
-	test_x , test_y = create_dataset(test_dir)
+	test_x , test_y = create_dataset_alt(test_dir)
 	print "shape testX:", test_x.shape
 	print "shape testY:", test_y.shape
 
@@ -165,7 +165,7 @@ def CNN_model():
 
 	img_cols, img_rows = 64, 32  # width, height
 
-	inputs = Input(shape=(2048,))
+	inputs = Input(shape=(32, 64,))
 
 	train_targets = individual_feature(train_y, 14)
 	test_targets = individual_feature(test_y, 14)
