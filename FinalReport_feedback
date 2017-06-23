@@ -1,0 +1,60 @@
+Introduction
+
+- Kijk uit met sterke statements zonder verwijzing ernaar (zoals de eerste zin)
+
+- ik denk niet dat we nog tijd hebben om in detail naar de representaties te kijken, dus dit kun je ook beter uit de introductie laten. Je kan dit wel noemen als een voordeel van deze aanpak, het feit dat dit mogelijk is, en evt nog in de discussie als future work step.
+
+- IPA is een alfabet voor phonemen, maar beschrijft niet echt features ofzo, het heeft alleen symbolen voor alle verschillende phonemen. Wij gebruiken het encoding systeem zoals gebruikt in Phoible, de features waar we naar kijken is een subset daarvan, geselecteerd omdat ze genoemd zijn als relevant in relatie met het Bouba-Kiki effect.
+
+- verwijs in je introductie ook al naar het Cuskley artikel, waarin de controverse rondom het bouba-kiki effect goed wordt besproken. 
+
+- Goed dat je zegt in het laatste gedeelte van je introductie wat er nog volgt, verwijs naar specifieke secties zodat het duidelijk is voor de lezer waar hij wat kan vinden.
+
+Literature review
+
+- Is het een eis dat je scriptie een 'literature review' bevat? Als dat niet zo is zou ik eerder kiezen voor 'background'. Je kunt dan een zinnetje introductie maken waarin je zegt wat je besprekt, en dan 2 subsecties maken voor het bouba kiki effect, writing systems en CNNs.
+
+- De 2 zinnen die je hebt over Cuskley zijn niet alleen prachtige zinnen, maar vatten ook heel goed samen wat het doel is van je onderzoek, ik zou ze in de introductie zetten!
+
+Research Question
+
+Als je dit in de introductie meldt denk ik niet dat je hier nog een aparte sectie nodig hebt alleen maar voor die vraag.
+
+Method and Approach
+
+Begin niet met het omschrijven van de evaluatie maar schrijf gewoon 1 zin die min of meer samenvat wat je hebt gedaan en wat er in deze sectie omschreven wordt.
+
+A
+- uitstekende omschrijving van de data, heel fijn dat het zo uitgebreid is zodat iemand het ook zou kunnen repliceren.
+
+- ik zou nog een subsectie maken "phonological encoding" daarin kun je een tabel zetten met de waardes voor de verschillende features. Je kunt dan ook een voorbeeld geven van een IPA character en zijn phonologische encoding.
+
+- misschien kun je ook een subsectie maken over 'input data', en een plaatje geven van een van de graphemes waar je naar hebt gekeken. Altijd fijn voor de lezer om iets beter te kunnen relateren
+
+B
+- geef ook verwijzingen voor Keras en Theano. Het best zou zijn om ook nog naar je github repo te verwijzen.
+- plaatjes van de architectuur doen het altijd goed, als je tijd hebt zou ik er zeker eentje toevoegen!
+
+Nog wat kleine dingetjes:
+- Ik vind je lay-out heel mooi, maar in zo'n two column-layout, wat meestal gebruikt wordt voor (conference papers) is een inhoudsopgave een beetje gek. Ik denk dat het in jouw geval wel goed is om een inhoudsopgave te hebben, dus ik zou toch voor de 1 column versie gaan.
+
+- Als je alle writing systems achter elkaar zet wordt de appendix wel heel lang. Mijn voorkeur zou uit gaan naar iets als:
+
+Alphabets
+writing_system1, writing_system2, writing_system3, ...
+
+Abigudas
+writing_system1, writing_system2, writing_system3, ...
+
+Abjads
+writing_system1, writing_system2, writing_system3, ...
+
+Maar als je dat overzicht niet precies hebt nu zou ik ze gewoon allemaal op dezelfde lijn zetten, gescheiden door komma's
+
+- ik zie nog steeds redelijk vaak 3 staan in de phoneme vectors, heb je "N" en "P" vervangen door - en +?
+
+- de tweede appendix zou ik als een tabel in de tekst zetten. Als je 1 kolom gebruikt ipv 2 moet dat wel passen. Dan moet je het een beetje anders type-setten, zodat de getallen precies onder de feature namen komen. Het is dan makkelijker te begrijpen voor mensen. Het zou ook beter zijn als je niet de (arbitraire) getallen print die jij aan de verschillende waardes hebt toegekend (de one-hot encoding), maar de oorspronkelijke waardes van de features: +1, -1, 0 en NA. Je kunt dan in de caption van de tabel ook uitleggen wat deze dingen betekenen.
+
+- De lijst met IPA symboles is niet echt noodzakelijk, die zou ik eruit halen. Je kunt wel bijvoorbeeld in de tekst een voorbeeld geven van en IPA symbool en diens fonologische encoding.
+
+- 'as well' zijn 2 woorden, niet 1
