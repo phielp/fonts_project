@@ -23,9 +23,9 @@ def create_random_vec(n, m):
 	return feature_vec
 
 def replace_value(value):
-	if value == '-':
+	if value == '-' or 'N':
 		return 0
-	elif value == '+':
+	elif value == '+' or 'P':
 		return 1
 	elif value == '0':
 		return 2
@@ -39,6 +39,8 @@ for key, value in conversions.items():
 	uniques.append(value)
 
 uniques = list(set(uniques))
+for unique in uniques:
+	print('[' + unique + ']')
 
 final_segments = '../Data/IPAfeatures/segments_final.txt'
 
