@@ -1,7 +1,6 @@
 from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Sequential, Model
-from keras.layers import Conv1D, Conv2D, MaxPooling2D
-from keras.layers import Activation, Dropout, Flatten, Dense, Reshape, Input
+from keras.models import Sequential, Model, load_model
+from keras.layers import Activation, Dropout, Flatten, Dense, Reshape, Input, Conv2D, MaxPooling2D, BatchNormalization
 from keras.utils import np_utils, plot_model
 from keras import backend as K
 from sklearn.preprocessing import LabelEncoder
@@ -9,8 +8,8 @@ import keras
 import os
 import csv
 import glob
-import numpy as np
 import ast
+import numpy as np
 
 train_set = ['abaza', 'abenaki', 'abkhaz', 'acehnese', 'acheron', 'acholi', 
     'achuar-shiwiar', 'adamaua', 'adzera', 'afar', 'afrikaans', 'aghul', 
@@ -259,19 +258,28 @@ def CNN_model():
 
     img_cols, img_rows = 64, 32  # width, height
 
+    # model = load_model('Final_model.h5')
+
     # create model
     inputs = Input(shape=(img_rows, img_cols,))
 
     reshaped = Reshape((1, img_rows, img_cols), input_shape=(32,64))(inputs)
 
+    # conv layer 1
     conv1 = Conv2D(n_target_features, kernel_size=(9, 9), activation='relu', data_format='channels_first')(reshaped)
     max_pool1 = MaxPooling2D(pool_size=(2, 2), padding ='same')(conv1)
 
     # conv layer 2
-    conv2 = Conv2D(n_target_features, kernel_size=(3, 3), activation='relu', padding='same')(max_pool1)
+    conv2 = Conv2D(n_target_features, kernel_size=(6, 6), activation='relu', padding='same')(max_pool1)
     max_pool2 = MaxPooling2D(pool_size=(2, 2), padding='same')(conv2)
 
-    flatten = Flatten()(max_pool2)
+    # conv layer 3
+    conv3 = Conv2D(n_target_features, kernel_size=(3, 3), activation='relu', padding='same')(max_pool2)
+    max_pool3 = MaxPooling2D(pool_size=(2, 2), padding='same')(conv3) 
+
+    # normalization = BatchNormalization()(max_pool3)
+
+    flatten = Flatten()(max_pool3)
 
     consonantal = Dense(n_target_features, activation='softmax', name='consonantal')(flatten)
     sonorant = Dense(n_target_features, activation='softmax', name='sonorant')(flatten)
@@ -293,8 +301,6 @@ def CNN_model():
 
     model = Model(inputs=inputs, outputs=predictions)
 
-    # top_k_categorical_accuracy()
-
     model.compile(optimizer='rmsprop',
                   loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
@@ -303,15 +309,24 @@ def CNN_model():
 
     model.fit(train_x, train_targets, batch_size=16, epochs=10, 
         validation_data = (validation_x, validation_targets))
-    score = model.evaluate(test_x, test_targets, batch_size=16)
-    print "\n score: ", score
+    scores = model.evaluate(test_x, test_targets, batch_size=16)
+
+    model.save('Final_model.h5')
+
+    print "\n score:\n"
+    for score in scores:
+        print score
+
+    prediction = model.predict(test_x)
+    print "\n ", prediction
+
+    # plot architecture
     plot_model(model, to_file = '../Data/Plots/model.png', show_shapes = True)
 
 # sequential_model()
 # CNN_sequential()
 if __name__ == '__main__':
     CNN_model()
-
 
 
 
