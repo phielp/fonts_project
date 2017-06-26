@@ -27,7 +27,7 @@ for vec in vecs:
 		
 		if vec == value:
 			keys.append(key)
-	print(vec)
+	# print(vec)
 
 # get names of sub directories
 def get_immediate_subdirectories(a_dir):
@@ -60,6 +60,7 @@ def replace_IPAsymbols():
 							if old == IPAsymbol[1:-1] and len(new) > 10:
 								writer.writerow([row[0], new])
 															
-# directory = '../Data/Final/'
-# scripts = get_immediate_subdirectories(directory)
-# replace_IPAsymbols()				
+directory = '../Data/Final/'
+scripts = get_immediate_subdirectories(directory)
+replace_IPAsymbols()		
+		

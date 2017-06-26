@@ -23,9 +23,9 @@ def create_random_vec(n, m):
 	return feature_vec
 
 def replace_value(value):
-	if value == '-' or 'N':
+	if value == '-' or value == 'N':
 		return 0
-	elif value == '+' or 'P':
+	elif value == '+' or value == 'P':
 		return 1
 	elif value == '0':
 		return 2
