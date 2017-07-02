@@ -1,0 +1,356 @@
+batch_size = 32, epochs = 100
+
+RUN 1
+
+loss, 9.90412189532
+consonantal_loss, 0.649822463325
+sonorant_loss, 0.693934321572
+continuant_loss, 0.66779026621
+delayedrelease_loss, 1.05207685239
+approximant_loss, 0.667278516411
+nasal_loss, 0.123703146469
+labial_loss, 0.148298736029
+round_loss, 0.6119408927
+strident_loss, 0.812650900961
+height_loss, 0.690424258925
+low_loss, 0.993149483221
+front_loss, 0.838470008198
+back_loss, 0.989933102775
+tense_loss, 0.964649103234
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.698727015601
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.547383309844
+front_acc, 0.547383309844
+back_acc, 0.547383309844
+tense_acc, 0.547383309844
+
+RUN 2
+
+loss, 9.90862000073
+consonantal_loss, 0.650080217415
+sonorant_loss, 0.694294245526
+continuant_loss, 0.667746173863
+delayedrelease_loss, 1.05226489408
+approximant_loss, 0.667792365187
+nasal_loss, 0.123705596825
+labial_loss, 0.148332294825
+round_loss, 0.611939609304
+strident_loss, 0.812778413549
+height_loss, 0.691240338321
+low_loss, 0.993656020859
+front_loss, 0.839091240264
+back_loss, 0.99054059635
+tense_loss, 0.965158046388
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.698727015601
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.547383309844
+front_acc, 0.547383309844
+back_acc, 0.547383309844
+tense_acc, 0.547383309844
+
+RUN 3
+
+loss, 9.90437588564
+consonantal_loss, 0.649677464362
+sonorant_loss, 0.694111805825
+continuant_loss, 0.667673498097
+delayedrelease_loss, 1.05220718928
+approximant_loss, 0.667236540324
+nasal_loss, 0.123710864364
+labial_loss, 0.14831477127
+round_loss, 0.611949801614
+strident_loss, 0.81256472234
+height_loss, 0.690546047148
+low_loss, 0.993101878079
+front_loss, 0.838530921616
+back_loss, 0.990025759586
+tense_loss, 0.964724678889
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.698727015601
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.547383309844
+front_acc, 0.547383309844
+back_acc, 0.547383309844
+tense_acc, 0.547383309844
+
+RUN 4
+
+loss, 9.90722781428
+consonantal_loss, 0.649917457279
+sonorant_loss, 0.694375342999
+continuant_loss, 0.667764145465
+delayedrelease_loss, 1.05230961224
+approximant_loss, 0.667708109342
+nasal_loss, 0.123703753236
+labial_loss, 0.148296958897
+round_loss, 0.611939125132
+strident_loss, 0.812756955076
+height_loss, 0.690925543261
+low_loss, 0.993440856691
+front_loss, 0.838742103486
+back_loss, 0.990370171917
+tense_loss, 0.964977714854
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.698727015601
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.547383309844
+front_acc, 0.547383309844
+back_acc, 0.547383309844
+tense_acc, 0.547383309844
+
+RUN 5
+
+loss, 9.90922249223
+consonantal_loss, 0.650015931065
+sonorant_loss, 0.694560084434
+continuant_loss, 0.667747318155
+delayedrelease_loss, 1.05251141341
+approximant_loss, 0.66758528179
+nasal_loss, 0.123713749059
+labial_loss, 0.14832753177
+round_loss, 0.611961662601
+strident_loss, 0.812970284399
+height_loss, 0.691242315054
+low_loss, 0.993649822903
+front_loss, 0.839079451864
+back_loss, 0.99066589661
+tense_loss, 0.965191338238
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.698727015601
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.547383309844
+front_acc, 0.547383309844
+back_acc, 0.547383309844
+tense_acc, 0.547383309844
+
+RUN 6
+
+loss, 9.90499232749
+consonantal_loss, 0.649742577083
+sonorant_loss, 0.694020148635
+continuant_loss, 0.667717374619
+delayedrelease_loss, 1.0521038586
+approximant_loss, 0.667272696485
+nasal_loss, 0.123716096875
+labial_loss, 0.148334065429
+round_loss, 0.61195934586
+strident_loss, 0.812812013201
+height_loss, 0.690610350443
+low_loss, 0.993243561186
+front_loss, 0.838546091883
+back_loss, 0.99015718825
+tense_loss, 0.964756998432
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.698727015601
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.547383309844
+front_acc, 0.547383309844
+back_acc, 0.547383309844
+tense_acc, 0.547383309844
+
+RUN 7
+
+loss, 127.189327904
+consonantal_loss, 10.4642233936
+sonorant_loss, 8.27562761037
+continuant_loss, 6.24661692872
+delayedrelease_loss, 8.34402123671
+approximant_loss, 6.17822335701
+nasal_loss, 16.1180953979
+labial_loss, 0.547149038214
+round_loss, 11.2621489306
+strident_loss, 5.72226585644
+height_loss, 7.29531905607
+low_loss, 11.6497127622
+front_loss, 9.55230846567
+back_loss, 11.558521179
+tense_loss, 13.9750956599
+consonantal_acc, 0.350777934979
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.0
+labial_acc, 0.966053748232
+round_acc, 0.301272984526
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.277227722814
+front_acc, 0.407355021259
+back_acc, 0.2828854314
+tense_acc, 0.132956152758
+
+RUN 8
+
+loss, 106.580051244
+consonantal_loss, 5.6538722505
+sonorant_loss, 8.27562761037
+continuant_loss, 6.24661692872
+delayedrelease_loss, 8.34402123671
+approximant_loss, 6.17822335701
+nasal_loss, 0.433159678964
+labial_loss, 0.547149038214
+round_loss, 11.2621489306
+strident_loss, 5.72226585644
+height_loss, 16.1180953979
+low_loss, 11.6497127622
+front_loss, 7.29531905607
+back_loss, 11.558521179
+tense_loss, 7.29531905607
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.301272984526
+strident_acc, 0.644978783593
+height_acc, 0.0
+low_acc, 0.277227722814
+front_acc, 0.547383309844
+back_acc, 0.2828854314
+tense_acc, 0.547383309844
+
+RUN 9
+
+loss, 145.951979792
+consonantal_loss, 10.4642233936
+sonorant_loss, 16.1180953979
+continuant_loss, 6.24661692872
+delayedrelease_loss, 8.34402123671
+approximant_loss, 9.93987229791
+nasal_loss, 15.6849359947
+labial_loss, 0.547149038214
+round_loss, 11.2621489306
+strident_loss, 15.1605850392
+height_loss, 8.82277656647
+low_loss, 7.29531905607
+front_loss, 15.3885636498
+back_loss, 13.3823510444
+tense_loss, 7.29531905607
+consonantal_acc, 0.350777934979
+sonorant_acc, 0.0
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.38330975959
+nasal_acc, 0.026874115983
+labial_acc, 0.966053748232
+round_acc, 0.301272984526
+strident_acc, 0.0594059405941
+height_acc, 0.452616690283
+low_acc, 0.547383309844
+front_acc, 0.045261669024
+back_acc, 0.169731258882
+tense_acc, 0.547383309844
+
+RUN 10
+
+loss, 9.90627112247
+consonantal_loss, 0.64966769898
+sonorant_loss, 0.694409213275
+continuant_loss, 0.667755706223
+delayedrelease_loss, 1.05227548837
+approximant_loss, 0.667479005781
+nasal_loss, 0.123705233306
+labial_loss, 0.148334805592
+round_loss, 0.611948820624
+strident_loss, 0.812853313024
+height_loss, 0.690770443376
+low_loss, 0.993317859008
+front_loss, 0.838684568985
+back_loss, 0.9901992897
+tense_loss, 0.964869437157
+consonantal_acc, 0.649222065148
+sonorant_acc, 0.486562942093
+continuant_acc, 0.612446959024
+delayedrelease_acc, 0.482319660622
+approximant_acc, 0.616690240537
+nasal_acc, 0.973125884017
+labial_acc, 0.966053748232
+round_acc, 0.698727015601
+strident_acc, 0.644978783593
+height_acc, 0.547383309844
+low_acc, 0.547383309844
+front_acc, 0.547383309844
+back_acc, 0.547383309844
+tense_acc, 0.547383309844
+
+Accuracy
+
+approximant & 0.593352192442 \\
+back & 0.456718529059 \\
+consonantal & 0.589533239114 \\
+continuant & 0.612446959024 \\
+delayedrelease & 0.482319660622 \\
+front & 0.483168316904 \\
+height & 0.483168316904 \\
+labial & 0.966053748232 \\
+low & 0.493352192438 \\
+nasal & 0.781188118812 \\
+round & 0.579490806279 \\
+sonorant & 0.437906647884 \\
+strident & 0.586421499293 \\
+tense & 0.505940594135 \\
+
+Loss
+
+approximant & 2.69686715273 \\
+back & 4.34312854076 \\
+consonantal & 3.11312428472 \\
+continuant & 2.34140452688 \\
+delayedrelease & 3.23978130185 \\
+front & 3.81073355578 \\
+height & 3.7071950317 \\
+labial & 0.267968627845 \\
+loss & 44.9066190478 \\
+low & 3.75483040624 \\
+nasal & 3.31021495117 \\
+round & 3.80700860496 \\
+sonorant & 3.75290557809 \\
+strident & 3.22945033546 \\
+tense & 3.53200610892 \\

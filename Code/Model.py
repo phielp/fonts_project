@@ -10,6 +10,7 @@ import csv
 import glob
 import ast
 import numpy as np
+import matplotlib.pyplot as plt
 
 train_set = ['abaza', 'abenaki', 'abkhaz', 'acehnese', 'acheron', 'acholi', 
     'achuar-shiwiar', 'adamaua', 'adzera', 'afar', 'afrikaans', 'aghul', 
@@ -148,6 +149,30 @@ def create_dataset_final(set_name):
     train_y = np.asarray(legend)
     return train_x, train_y
 
+def create_dataset_random(file_name):
+    directory = '../Data/Final/'
+
+    train_data = []
+    legend = []
+
+    with open(directory + file_name, 'r') as f:
+        reader = csv.reader(f, delimiter = ',')
+        for row in reader:
+            if any(row):
+
+                new_row = ast.literal_eval(row[-1])
+                legend.append(new_row)
+
+                path = directory + row[0] + '/csv/' + row[1] + '.csv'
+                sample = np.genfromtxt(path, delimiter=',')
+
+                train_data.append(sample)
+    f.close()
+    train_x = np.asarray(train_data)
+    train_y = np.asarray(legend)
+
+    return train_x, train_y
+
 # returns one-hot encoding for 1 feature
 def individual_feature(Y, n_features):
     final = []
@@ -229,14 +254,26 @@ def CNN_sequential():
     score = model.evaluate(test_x, test_y, batch_size=16)
     print '\n', score
 
+def plotData(results):
+    for key, value in results.items():
+        plt.figure()
+        plt.title(key)
+        plt.xlabel('epoch number')
+        plt.ylabel('value')
+        plt.plot(value)
+        plt.savefig('../Data/Plots/' + key + '.png')
+        plt.close()
+        # plt.hold(False)
+
+
 def CNN_model():
-    train_x, train_y = create_dataset_final(train_set)
+    train_x, train_y = create_dataset_random('RandomTrain.csv')
     print "shape trainX:", train_x.shape
     print "shape trainY:", train_y.shape
-    test_x , test_y = create_dataset_final(test_set)
+    test_x , test_y = create_dataset_random('RandomTest.csv')
     print "shape testX:", test_x.shape
     print "shape testY:", test_y.shape
-    validation_x, validation_y = create_dataset_final(validation_set)
+    validation_x, validation_y = create_dataset_random('RandomValidation.csv')
     print "shape validationX:", validation_x.shape
     print "shape validationY:", validation_y.shape
 
@@ -277,8 +314,6 @@ def CNN_model():
     conv3 = Conv2D(n_target_features, kernel_size=(3, 3), activation='relu', padding='same')(max_pool2)
     max_pool3 = MaxPooling2D(pool_size=(2, 2), padding='same')(conv3) 
 
-    # normalization = BatchNormalization()(max_pool3)
-
     flatten = Flatten()(max_pool3)
 
     consonantal = Dense(n_target_features, activation='softmax', name='consonantal')(flatten)
@@ -305,20 +340,27 @@ def CNN_model():
                   loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
 
+    metrics = model.metrics_names
+
     predictions = model.predict(train_x)[0]
 
-    model.fit(train_x, train_targets, batch_size=16, epochs=10, 
+    history = model.fit(train_x, train_targets, batch_size=32, epochs=100, 
         validation_data = (validation_x, validation_targets))
+
+    
+    results = history.history
+
     scores = model.evaluate(test_x, test_targets, batch_size=16)
 
     model.save('Final_model.h5')
 
     print "\n score:\n"
+    i = 0
     for score in scores:
-        print score
+        print metrics[i] + ', ' + str(score)
+        i += 1
 
-    prediction = model.predict(test_x)
-    print "\n ", prediction
+    plotData(results)
 
     # plot architecture
     plot_model(model, to_file = '../Data/Plots/model.png', show_shapes = True)
@@ -327,6 +369,8 @@ def CNN_model():
 # CNN_sequential()
 if __name__ == '__main__':
     CNN_model()
+
+    
 
 
 
